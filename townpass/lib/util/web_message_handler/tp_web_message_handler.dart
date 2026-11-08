@@ -245,6 +245,7 @@ class NotifyMessageHandler extends TPWebMessageHandler {
       )? onReply}) async {
     switch (message) {
       case Object json when json is Map<String, dynamic>:
+        final Object? rawUrl = json['url']; // for open url when notification is tapped
         NotificationService.showNotification(
           title: json['title'],
           content: json['content'],

@@ -27,7 +27,7 @@
     ],
     "residentAddress": "臺北市中山區吉林路 69 號 4 樓",
     "citizen": true,
-    "nativePeople": false,
+    "nativePeople": true,
     "cityInternetUid": ""
   },
   "extra": null,

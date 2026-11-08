@@ -29,6 +29,7 @@ enum MyServiceItemId {
   library,
   locationSearch,
   zoo,
+  governmentAid,
   ;
 }
 
@@ -183,6 +184,13 @@ extension MyServiceIdExt on MyServiceItemId {
           category: MyServiceCategory.explore,
           destinationUrl: '',
         ),
+      MyServiceItemId.governmentAid => MyServiceItem(
+        title: '原民補助拿得到',
+        description: '提供原住民補助資訊，即時推播最新資訊',
+        icon: Assets.svg.iconSubsidies.svg(),
+        category: MyServiceCategory.cityService,
+        destinationUrl: 'https://ccc.concentration-please.workers.dev',
+      )
     };
   }
 }
