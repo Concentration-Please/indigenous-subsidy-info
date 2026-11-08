@@ -14,11 +14,19 @@
 1. Node.js 22
 2. Cloudflare Workers + KV
 
-## 如何開啟服務
+## 如何開啟微服務 `web`
 輸入指令來下載所需套件並開啟伺服器
 ```sh
 npm install
 npm run dev
+```
+
+## 如何開啟TownPass `TownPass`
+輸入指令來下載所需套件並開啟伺服器
+```sh
+flutter pub get
+dart run build_runner build
+flutter run
 ```
 
 
