@@ -2,7 +2,7 @@
 
 在 TownPass WebView 使用的臺北市政府原住民族補助清單應用程式。
 
-https://github.com/Concentration-Please/indigenous-subsidy-info/blob/508a745e6af3afeb9b93aab2e5e994df73f8977a/web/public/Screenshot_20261108_082426_Chrome.jpg
+![原民補助拿得到－網站截圖](web/public/Screenshot_20261108_082426_Chrome.jpg)
 
 ## 服務內容簡介
 
