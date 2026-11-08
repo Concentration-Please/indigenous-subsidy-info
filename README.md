@@ -2,7 +2,7 @@
 
 在 TownPass WebView 使用的臺北市政府原住民族補助清單應用程式。
 
-![原民補助拿得到－網站截圖](web/public/screenshot.webp)
+![原民補助拿得到－網站截圖](screenshot.webp)
 
 ## 服務內容簡介
 
